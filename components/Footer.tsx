@@ -13,6 +13,7 @@ export default function Footer() {
         <ul className="footer-links">
           <li><Link href="/condohub">CondoHub</Link></li>
           <li><Link href="/freightflow">FreightFlow</Link></li>
+          <li><Link href="/#produtos">Produtos</Link></li>
           <li><Link href="/servicos-dev">Dev & Sites</Link></li>
           <li><a href="https://pulsops.vercel.app/" target="_blank" rel="noreferrer">PulsOps</a></li>
           <li><a href="https://www.english-ai.com.br" target="_blank" rel="noreferrer">EnglishAI</a></li>

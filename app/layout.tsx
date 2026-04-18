@@ -1,5 +1,18 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
+import { DM_Sans, Syne } from 'next/font/google'
 import './globals.css'
+
+const syne = Syne({
+  subsets: ['latin'],
+  variable: '--font-display',
+  weight: ['400', '600', '700', '800'],
+})
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-body',
+  weight: ['300', '400', '500'],
+})
 
 export const metadata: Metadata = {
   title: 'Kauê Lima · Dev & Produtos Digitais',
@@ -14,10 +27,16 @@ export const metadata: Metadata = {
   },
 }
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body className={`${syne.variable} ${dmSans.variable}`}>{children}</body>
     </html>
   )
 }
