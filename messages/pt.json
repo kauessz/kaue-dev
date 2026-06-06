@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "greeting": "Olá, sou Kauê.",
+    "title": "Desenvolvedor Full Stack",
+    "subtitle": "Construo produtos SaaS do zero à produção — backend, frontend e tudo no meio.",
+    "cta_work": "Ver meu trabalho",
+    "cta_products": "Meus produtos"
+  },
+  "nav": {
+    "work": "Portfólio",
+    "products": "Produtos",
+    "contact": "Contato"
+  },
+  "work": {
+    "title": "Trabalhos Selecionados",
+    "subtitle": "Produtos reais. Usuários reais. Decisões reais."
+  },
+  "contact": {
+    "title": "Vamos trabalhar juntos",
+    "subtitle": "Aberto a vagas remotas e projetos freelance.",
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "whatsapp": "WhatsApp"
+  }
+}

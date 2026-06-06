@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
-import { DM_Sans, Syne } from 'next/font/google'
+import { DM_Sans, JetBrains_Mono, Syne } from 'next/font/google'
+import LocaleProvider from '../components/LocaleProvider'
 import './globals.css'
 
 const syne = Syne({
@@ -14,16 +15,24 @@ const dmSans = DM_Sans({
   weight: ['300', '400', '500'],
 })
 
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-mono',
+  weight: ['400'],
+})
+
 export const metadata: Metadata = {
-  title: 'Kauê Lima · Dev & Produtos Digitais',
-  description: 'Produtos SaaS, automação inteligente e desenvolvimento web sob medida. Santos, SP.',
-  keywords: ['desenvolvimento web', 'SaaS', 'automação', 'logística', 'Santos SP'],
+  title: 'Kauê Lima · Full Stack Developer',
+  description:
+    'Full Stack Developer building SaaS products from zero to production. Open to remote roles in Europe and North America.',
+  keywords: ['full stack developer', 'SaaS', 'Next.js', 'Java', 'Spring Boot', 'remote'],
   authors: [{ name: 'Kauê Lima' }],
   openGraph: {
-    title: 'Kauê Lima · Dev & Produtos Digitais',
-    description: 'Produtos SaaS, automação inteligente e desenvolvimento web sob medida.',
+    title: 'Kauê Lima · Full Stack Developer',
+    description:
+      'Full Stack Developer building SaaS products from zero to production.',
     type: 'website',
-    locale: 'pt_BR',
+    locale: 'en_US',
   },
 }
 
@@ -35,8 +44,10 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR">
-      <body className={`${syne.variable} ${dmSans.variable}`}>{children}</body>
+    <html lang="en">
+      <body className={`${syne.variable} ${dmSans.variable} ${jetbrainsMono.variable}`}>
+        <LocaleProvider>{children}</LocaleProvider>
+      </body>
     </html>
   )
 }
