@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Footer from '../../../components/Footer'
 import Nav from '../../../components/Nav'
+import ScreenshotGallery from '../../../components/ScreenshotGallery'
 import { getAllSlugs, getProjectData } from '../../../data/projects'
 
 interface Props {
@@ -98,21 +99,7 @@ export default async function CaseStudyPage({ params }: Props) {
 
         <div className="container">
           {/* ── SCREENSHOTS ── */}
-          {project.screenshots.length > 0 && (
-            <div className="case-section">
-              <div className="screenshots-grid">
-                {project.screenshots.map((src) => (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
-                    key={src}
-                    src={src}
-                    alt={`${project.title} screenshot`}
-                    className="screenshot-img"
-                  />
-                ))}
-              </div>
-            </div>
-          )}
+          <ScreenshotGallery screenshots={project.screenshots} title={project.title} />
 
           {/* ── THE PROBLEM ── */}
           <div className="case-section">
