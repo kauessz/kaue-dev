@@ -208,7 +208,7 @@ export default function ProductsPage() {
                       </a>
                     ) : (
                       <a
-                        href="mailto:kauecls@gmail.com"
+                        href="mailto:ssz.kaue@gmail.com"
                         className="btn btn-ghost"
                         style={{ minHeight: '40px', fontSize: '0.85rem' }}
                       >
@@ -263,7 +263,7 @@ export default function ProductsPage() {
                 >
                   WhatsApp
                 </a>
-                <a href="mailto:kauecls@gmail.com" className="btn btn-ghost">
+                <a href="mailto:ssz.kaue@gmail.com" className="btn btn-ghost">
                   Email
                 </a>
               </div>

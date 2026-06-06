@@ -42,7 +42,7 @@ export default function Nav() {
         <div className="nav-cta">
           <LanguageToggle />
           <a
-            href="https://github.com/kauecls"
+            href="https://github.com/kauessz"
             target="_blank"
             rel="noreferrer"
             className="btn btn-ghost"
@@ -71,7 +71,7 @@ export default function Nav() {
             </Link>
           ))}
           <a
-            href="https://github.com/kauecls"
+            href="https://github.com/kauessz"
             target="_blank"
             rel="noreferrer"
             onClick={() => setMenuOpen(false)}

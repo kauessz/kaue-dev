@@ -127,7 +127,7 @@ export default function WorkPage() {
 
               <div className="about-links">
                 <a
-                  href="https://github.com/kauecls"
+                  href="https://github.com/kauessz"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-ghost"
@@ -136,7 +136,7 @@ export default function WorkPage() {
                   GitHub ↗
                 </a>
                 <a
-                  href="https://linkedin.com/in/kauecls"
+                  href="www.linkedin.com/in/kaue-lima01"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-ghost"
@@ -145,7 +145,7 @@ export default function WorkPage() {
                   LinkedIn ↗
                 </a>
                 <a
-                  href="mailto:kauecls@gmail.com"
+                  href="mailto:ssz.kaue@gmail.com"
                   className="btn btn-accent"
                   style={{ minHeight: '40px', fontSize: '0.82rem' }}
                 >

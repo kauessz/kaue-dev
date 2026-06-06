@@ -12,14 +12,14 @@ export default function Footer() {
         </div>
 
         <ul className="footer-links">
-          <li><a href="mailto:kauecls@gmail.com">Email</a></li>
+          <li><a href="mailto:ssz.kaue@gmail.com">Email</a></li>
           <li>
-            <a href="https://linkedin.com/in/kauecls" target="_blank" rel="noreferrer">
+            <a href="www.linkedin.com/in/kaue-lima01" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
           </li>
           <li>
-            <a href="https://github.com/kauecls" target="_blank" rel="noreferrer">
+            <a href="https://github.com/kauessz" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </li>
