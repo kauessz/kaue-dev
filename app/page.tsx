@@ -107,9 +107,17 @@ export default function Home() {
                   Real products, real decisions, real code. Six SaaS projects with full-stack ownership — from architecture to deploy.
                 </p>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1.5rem' }}>
-                  {['GitHub', 'Case Studies', 'Stack Detail', 'CV Download'].map((item) => (
+                  {['GitHub', 'Case Studies', 'Stack Detail'].map((item) => (
                     <span key={item} className="chip">{item}</span>
                   ))}
+                  <a
+                    href="/cv/CV-Kaue-Lima-EN.pdf"
+                    download="CV-Kaue-Lima-EN.pdf"
+                    className="chip"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    ↓ CV Download
+                  </a>
                 </div>
                 <Link href="/work" className="btn btn-accent">
                   View portfolio →
@@ -154,7 +162,7 @@ export default function Home() {
                     Browse products →
                   </Link>
                   <a
-                    href="https://wa.me/5513988026188?text=Olá, Kauê! Quero saber mais sobre seus produtos."
+                    href="https://wa.me/5513988026188?text=Ol%C3%A1%2C+Kau%C3%AA%21+Quero+saber+mais+sobre+seus+produtos."
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-wha"

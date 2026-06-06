@@ -136,7 +136,7 @@ export default function WorkPage() {
                   GitHub ↗
                 </a>
                 <a
-                  href="www.linkedin.com/in/kaue-lima01"
+                  href="https://linkedin.com/in/kaue-lima01"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-ghost"
@@ -150,6 +150,20 @@ export default function WorkPage() {
                   style={{ minHeight: '40px', fontSize: '0.82rem' }}
                 >
                   Email me
+                </a>
+                <a
+                  href="/cv/CV-Kaue-Lima-EN.pdf"
+                  download="CV-Kaue-Lima-EN.pdf"
+                  className="cv-btn"
+                >
+                  ↓ CV (EN)
+                </a>
+                <a
+                  href="/cv/CV-Kaue-Lima-PT.pdf"
+                  download="CV-Kaue-Lima-PT.pdf"
+                  className="cv-btn"
+                >
+                  ↓ CV (PT)
                 </a>
               </div>
             </div>

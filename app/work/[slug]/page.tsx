@@ -218,11 +218,11 @@ export default async function CaseStudyPage({ params }: Props) {
               freelance projects. Let&apos;s talk.
             </p>
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              <a href="mailto:kauecls@gmail.com" className="btn btn-accent">
+              <a href="mailto:ssz.kaue@gmail.com" className="btn btn-accent">
                 Email me
               </a>
               <a
-                href="https://linkedin.com/in/kauecls"
+                href="https://linkedin.com/in/kaue-lima01"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-ghost"
