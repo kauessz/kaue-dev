@@ -152,14 +152,14 @@ export default function WorkPage() {
                   Email me
                 </a>
                 <a
-                  href="/cv/CV-Kaue-Lima-EN.pdf"
+                  href="/CV/CV-Kaue-Lima-EN.pdf"
                   download="CV-Kaue-Lima-EN.pdf"
                   className="cv-btn"
                 >
                   ↓ CV (EN)
                 </a>
                 <a
-                  href="/cv/CV-Kaue-Lima-PT.pdf"
+                  href="/CV/CV-Kaue-Lima-PT.pdf"
                   download="CV-Kaue-Lima-PT.pdf"
                   className="cv-btn"
                 >
